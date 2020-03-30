@@ -72,6 +72,7 @@ const MapChart = ({ setTooltipContent }) => {
       <ComposableMap
         data-tip=""
         projectionConfig={{ rotate: [-10, 0, 0], scale: 150 }}
+        viewBox="0 50 800 600"
       >
         <Sphere stroke="#E4E5E6" strokeWidth={0.5} />
         <Graticule stroke="#E4E5E6" strokeWidth={0.5} />
