@@ -7,6 +7,7 @@ function App() {
 
   return (
     <div className="App">
+      <h1>COVID-19 Map</h1>
       <MapChart setTooltipContent={setContent} />
       <ReactTooltip>{content}</ReactTooltip>
     </div>
